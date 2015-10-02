@@ -1,4 +1,6 @@
 - How does tracking and adding changes make developers' lives easier?
+  
+  It allows mistakes to be undone. I imagine that it is also helpful to know who wrote what, so you know who to ask for information.
 
 - What is a commit?
 
@@ -32,10 +34,14 @@
 
   `git merge branch_name` merges the branch into the current branch
 
-  `git push` is the easy way but bad practice
+  `git push` Merge changes to the remote branch. This is the easy way but bad practice.
 
 - What is a pull request and how do you create and merge one?
 
-  
+  A pull request is a request to merge a branch into another branch. First make sure that you have pushed the branch to github with `git push origin branch_name`. Navigate to the branch on the github website and click 'pull request'. Comment and click 'create pull request'.
+
+  Normally you don't do this yourself, but in this case go to the pull request and merge it. Delete the branch if neccessary, pull down the master branch, delete the local copy of the branch.
 
 - Why are pull requests preferred when working with teams?
+
+  It makes sure that decisions to move changes into the master branch aren't unilateral. Other peoples branches are relying on the master branch, and so changing it needs to be something that everyone is ready for.
