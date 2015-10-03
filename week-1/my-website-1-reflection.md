@@ -12,7 +12,7 @@
 
 - What do you think about Open Source? Does it make you nervous or protective? Does it feel like utopia?
 
-  Two thumbs up. I don't feel nervous about it at all, as long as you think first before choosing to make something open source or closed source. As for whether open source is utopian, would you rather live in a world where Perl is locked down like Java (google "Oracle sues Google").
+  Two thumbs up. I don't feel nervous about it at all, as long as you think first before choosing to make something open source or closed source. As for whether open source is utopian, would you rather live in a world where Perl is locked down like Java? (google "Oracle sues Google")
 
 - Assess the importance of using licenses.
 
