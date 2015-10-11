@@ -1,1 +1,1 @@
-![Site Map](img/site-map.png)
+![Site Map](./img/site-map.png)
