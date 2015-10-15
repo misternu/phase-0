@@ -1,0 +1,52 @@
+body {
+    color: #000080;
+    background: white;
+}
+a {
+    color:purple;
+}
+a:visited {
+    color:red;
+}
+li > a {
+    font-size:16px;
+}
+ul {
+    columns:2;
+    -webkit-columns:2;
+    -moz-columns:2;
+
+}
+div {
+    padding:5px;
+}
+.links {
+border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.geico {
+border-bottom: 1px solid black;
+}
+footer {
+    border-top: 1px solid black;
+}
+li {
+    font-size:14px;
+    padding:10px;
+}
+header {
+    font-size: 18px;
+    font-weight: bold;
+    text-align:center;
+}
+.big-letter {
+    font-size: 32px;
+}
+
+#inc {
+    font-size: 14px;
+}
+.geico {
+ text-align: center;
+ font-size: 14px;
+}
