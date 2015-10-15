@@ -50,3 +50,35 @@ header {
  text-align: center;
  font-size: 14px;
 }
+
+/*
+##What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+You use the link tag, specify the relationship and type, and href the relative location of the file. CSS files are applied to the page in the order that they are loaded.
+
+##What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+It was hard to get things to be spaced properly, we tried using padding. Also, we couldn't figure out how to make new lines in css without using <br>.
+
+##What CSS did you use to modify the element style (like size, color, etc.)
+
+background, color, lots of font-size and font-weight, border-top, border-bottom, padding
+
+##Did you modify the HTML to include classes or ids? If so, which did you chose and why? If you didn't, how would you know which one to add to your HTML?
+
+We used a couple of classes and one id for the geico logo. ids should only be used when the element will only appear once.
+
+##When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+We had better practices than the website, but I think they used dreamweaver or something like it. They had inline styling, and leftover code that only makes sense from a wysiwyg, for example from line 91
+
+<p></p>
+<p align="center">
+<div></div>
+<p></p>
+<p>
+<hr>
+
+empty paragraph, centered paragraph containing an empty div and an empty paragraph, start a new paragraph (never closes), horizontal rule
+
+*/
