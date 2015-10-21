@@ -14,6 +14,7 @@ division includes remainders in the result.
 For someone who doesn't know, I would tell them that integer division is like the division that they were taught before they learned about decimals.
 
 ##Mini Challenges
+
 ```
 def hoursInYear()
   puts 365*24
@@ -24,3 +25,30 @@ def minutesInDecade()
 end
 ```
 
+##How does Ruby handle addition, subtraction, multiplication, and division of numbers?
+
+The operators + - * / are placed between two numbers, and the output can depend on the variable type of the numbers.
+
+##What is the difference between integers and floats?
+
+Integers are whole numbers, and floats are numbers with decimals.
+
+##What is the difference between integer and float division?
+
+Integer division doesn't keep the remainder. Float division keeps the remainder
+
+##What are strings? Why and when would you use them?
+
+A string is a series of characters, you would use them for displaying output or storing and analyzing words or other user input.
+
+##What are local variables? Why and when would you use them?
+
+Local variables are for temporarily storing information that the program needs.
+
+##How was this challenge? Did you get a good review of some of the basics?
+
+It was a good review, but this was more than covered by what I had to study before the interview
+
+[Defining Variables](defining-variables.rb)
+[Simple String Methods](simple-string.rb)
+[Local Variables and Basic Arithmetical Operations](basic-math.rb)
