@@ -170,3 +170,19 @@ amount_of_kfc_left = 20/1
 
 # --- REFLECTION -------------------------------------------------------
 # Write your reflection below as a comment.
+
+##Which error was the most difficult to read?
+
+# the cartman_hates error where you had to find what hadn't been closed
+
+##How did you figure out what the issue with the error was?
+
+#skimming the file looking for where it opened, starting at the line of error
+
+##Were you able to determine why each error message happened based on the code?
+
+# Yes
+
+##When you encounter errors in your future code, what process will you follow to help you debug?
+
+# Read the error, look at the line number, think about what's happening
