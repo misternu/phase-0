@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color:#0099FF;
+}
+
+ul {
+    background-color: ;
+}
+
+details {
+    background-color: gray;
+}
+
+section {
+    background-color: ;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+}
+
+footer {
+    background-color:#FFFF99;
+    margin-top: 1em;
+    height: 4em;
+}
+a {
+    background-color: ;
+}
