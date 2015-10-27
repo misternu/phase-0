@@ -1,8 +1,6 @@
 # Pad an Array
 
-# I worked on this challenge with []
-
-# I spent [] hours on this challenge.
+# I worked on this challenge with Ryan Zell
 
 
 # Complete each step below according to the challenge directions and
@@ -50,7 +48,7 @@
 def pad!(array, min_size, value = nil) #destructive
   array.push(value) while array.length < min_size
   return array
-endva
+end
 
 def pad(array, min_size, value = nil) #non-destructive
   new_array = array.clone
@@ -62,3 +60,29 @@ end
 
 # 4. Reflection
 
+=begin Reflection
+##Were you successful in breaking the problem down into small steps?
+
+Yes, it seems like. Not sure if we wre supposed to make the solution even more simplified/explcit.
+
+##Once you had written your pseudocode, were you able to easily translate it into code? What difficulties and successes did you have?
+
+It was easy, mostly because we both had the actual code in mind during the beginning. We are both having trouble thinking while looking at pseudocode.
+
+##Was your initial solution successful at passing the tests? If so, why do you think that is? If not, what were the errors you encountered and what did you do to resolve them?
+
+It turned out that .copy wasn't a method, and we had to replace it with .clone, after that it was successful
+
+##When you refactored, did you find any existing methods in Ruby to clean up your code?
+
+Not sure if push is any cleaner than <<
+
+##How readable is your solution? Did you and your pair choose descriptive variable names?
+
+The variable names were left there by whoever created the challenge, so we can't take any credit for that. I think our solution is fairly readable but I'm sure there's a better way we didn't figure out
+
+##What is the difference between destructive and non-destructive methods in your own words?
+
+Destructive methods change what is passed in, non-destructive methods make a new thing from what is passed in.
+
+=end
