@@ -42,14 +42,14 @@ CLASS Die
 
 class Die
   def initialize(sides)
-    raise ArgumentError unless sides >= 1
+    raise ArgumentError, "must have at least one side" unless sides >= 1
     @sides = sides
   end
 
   attr_reader :sides
 
   def roll
-    1 + rand(@sides)
+    rand(1..@sides)
   end
 end
 
