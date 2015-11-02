@@ -4,6 +4,18 @@
 
 # I spent 0.5 hours on this challenge.
 
+=begin Pseudocode
+CREATE a class for name data
+  DEFINE attribute accessor for name
+  DEFINE initialization method that takes an argument name
+    SET instance variable of name to name
+CREATE a class that gives greetings
+  DEFINE an initialization method that takes no arguments
+    SET an instance variable of name to a new instance of name data object
+  DEFINE method hello
+    PRINT a greeting, using the name returned from the name data object
+=end
+
 class NameData
   attr_accessor :name
   def initialize(name)
