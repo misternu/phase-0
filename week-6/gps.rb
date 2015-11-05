@@ -2,7 +2,7 @@
 # 1)Timothy Meixell
 # 2)
 
-# We spent [#] hours on this challenge.
+# We spent 1 hours on this challenge.
 
 # Bakery Serving Size portion calculator.
 
@@ -71,6 +71,21 @@ p serving_size_calc("cookie", 1)
 p serving_size_calc("cookie", 10)
 # p serving_size_calc("THIS IS AN ERROR", 5)
 
-#  Reflection
+=begin  Reflection
+##What did you learn about making code readable by working on this challenge?
 
+Variable names can be very useful for documentation, and are therefore also very frustrating when they are misnamed. If you are going to write a larger block, it should be clear to the person who is reading it why you are doing that.
 
+##Did you learn any new methods? What did you learn about them?
+
+I learned that you can use unless at the start of a block instead of at the end of a line sometimes.
+
+##What did you learn about accessing data in hashes?
+
+I learned that you can take the value from a hash as an array with values_at, which the original code did. I'm not sure why you would want to do that though.
+
+##What concepts were solidified when working through this challenge?
+
+The guide helped us understand that when reading other peoples code you sometimes have to reverse pseudocode it. Scott and I practiced this and will be better at it next time.
+
+=end
