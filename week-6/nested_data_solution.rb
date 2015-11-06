@@ -90,3 +90,18 @@ startup_names.map! do |x|
 end
 
 p startup_names
+
+=begin Reflection
+##What are some general rules you can apply to nested arrays?
+
+Any one method can only iterate over the outermost eunmerable that was passed to it. indices are called from the outside in.
+
+##What are some ways you can iterate over nested arrays?
+
+Iterate over the sub array inside the iteration of the main array. Or call the sub array directly and then iterate over it.
+
+##Did you find any good new methods to implement or did you re-use one you were already familiar with? What was it and why did you decide that was a good option?
+
+We ended up using map conditionally on the sub arrays, we tried to find something that would only act on the integers and strings but we couldn't within the timebox.
+
+=end
