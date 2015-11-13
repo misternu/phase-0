@@ -95,4 +95,27 @@ end
 
 
 #=======================================================================
-# Reflection Section
+=begin Reflection
+
+##What are the differences between the two different hash syntaxes shown in the state_data file?
+
+
+
+##What does require_relative do? How is it different from require?
+
+
+
+##What are some ways to iterate through a hash?
+
+
+
+##When refactoring virus_effects, what stood out to you about the variables, if anything?
+
+
+
+##What concept did you most solidify in this challenge?
+
+
+
+
+=end
