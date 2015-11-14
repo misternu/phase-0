@@ -99,23 +99,23 @@ end
 
 ##What are the differences between the two different hash syntaxes shown in the state_data file?
 
-
+One uses string keys with the arrow notation, the other uses symbols with the colon syntax (not sure about nomenclature). I feel like the symbols are a lot easier to read, but the strings are convenient if you are going to be interpolating the keys into a string.
 
 ##What does require_relative do? How is it different from require?
 
-
+Require relative loads a rb file relative to the position of the file that it is being called from. plain require needs the module to be installed. By specifying that we are using the relative require, we are implying that the file is a part of the same project we are working on.
 
 ##What are some ways to iterate through a hash?
 
-
+We can use each to grab key-value pairs one at a time, or we can iterate over an array of the keys calling them one at a time.
 
 ##When refactoring virus_effects, what stood out to you about the variables, if anything?
 
-
+They were passing instance variables from one method inside the instance to another, a tautology.
 
 ##What concept did you most solidify in this challenge?
 
-
+Passing instance variables inside the instance is never necessary, and dont repeat yourself.
 
 
 =end
