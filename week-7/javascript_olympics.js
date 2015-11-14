@@ -67,4 +67,20 @@ function Athlete(name,age,event,comment){
 var michaelPhelps = new Athlete("Michael Phelps", 29, "swimming", "It's medicinal I swear!");
 console.log(michaelPhelps.constructor === Athlete);
 console.log(michaelPhelps.name + " " + michaelPhelps.sport + " " + michaelPhelps.quote);
-// Reflection
+
+
+
+/* Reflection
+##What JavaScript knowledge did you solidify in this challenge?
+
+Javascript string manipulation and constructor functions
+
+##What are constructor functions?
+
+A constructor function is like an initialize method, but it almost reads like an object literal.
+
+##How are constructors different from Ruby classes (in your research)?
+
+The body of a constructor method is very similar to the object it creates, where the body of an initialize method is more of a procedure.
+
+*/
