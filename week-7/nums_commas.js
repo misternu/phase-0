@@ -49,11 +49,21 @@ numCommas(test_number);
 
 // Reflection
 /*
-we learned that if you call string as method we have to use ()
-and we can use split with out the regex
-function numCommas(number) {
+##What was it like to approach the problem from the perspective of JavaScript? Did you approach the problem differently?
 
-} -> we did not use this because it's not best practice, it would make our f global and potentially have
+Yes because we didn't have all of the string methods we are used to being able to take advantage of.
+
+##What did you learn about iterating over arrays in JavaScript?
+
+We kept in mind that it was best to start from the end of the array if we were going to manipulate it, that way none of the indices we were soon to access would move.
+
+##What was different about solving this problem in JavaScript?
+
+Different methods to choose from forced us into manipulating arrays instead of strings.
+
+##What built-in methods did you find to incorporate in your refactored solution?
+
+We got it good on the first try we felt, we mostly took out the debug code.
 
 
 */
