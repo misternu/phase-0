@@ -113,18 +113,22 @@ table.clean = function(all) {
 }
 
 //driver code
-// deck.shuffle();
-// deck.deal();
-// deck.hit();
-// console.log(table.cards);
-// console.log(deck.stand());
+deck.shuffle();
+deck.deal();
+deck.hit();
+console.log(table.cards);
+console.log(deck.stand());
 
 // Reflection
 //
-//
-//
-//
-//
-//
-//
-//
+//What was the most difficult part of this challenge?
+//Fixing the errors, dealing with the immutability of arrays. Fortunately, I had already read about the knuth shuffle before.
+
+// What did you learn about creating objects and functions that interact with one another?
+// In javascript it is much easier for objects to mess with each others attributes, but that can just get more messy.
+
+// Did you learn about any new built-in methods you could use in your refactored solution? If so, what were they and how do they work?
+// The parseint function made everything less complicated, because I had originally mixed strings and ints in the deck. Since I could change them back to ints easily, I just made the whole deck into strings.
+
+// How can you access and manipulate properties of objects?
+// I just call those properties with the dot syntax, manipulating them is as simple as setting them with an equals sign or using a destructive method.
