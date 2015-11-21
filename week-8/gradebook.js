@@ -15,11 +15,6 @@ var scores = [ [80, 70, 70, 100],
                [75, 70, 80, 75],
                [100, 90, 95, 85] ];
 
-
-
-
-
-
 // __________________________________________
 // Write your code below.
 // var gradebook = {};
@@ -68,6 +63,15 @@ function average(numbers) {
 
 // __________________________________________
 // Reflect
+
+// What did you learn about adding functions to objects?
+// We just used the syntax that we had been taught the first time, and then we used object literal syntax the second time to make things more organized.
+
+// How did you iterate over nested arrays in JavaScript?
+// The solution did not call for this, but we could have used two nested for loops to get the appropiate index numbers.
+
+// Were there any new methods you were able to incorporate? If so, what were they and how did they work?
+// This was the first time that we had used the reduce method. It works kind of like inject does in ruby, where the output is the first argument to the next time around the loop.
 
 
 

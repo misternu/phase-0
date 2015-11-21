@@ -119,6 +119,18 @@ for (var office in voteCount) {
 // __________________________________________
 // Reflection
 
+// What did you learn about iterating over nested objects in JavaScript?
+// When using the for/in syntax, we are still just being sent the keys, not the actual contained values that we are iterating over. We tried to find a different syntax to use to get around this, with no luck during pairing.
+
+
+// Were you able to find useful methods to help you with this?
+// On line 98 we used a condidional assignment based on truthyness, saving ourselves from having an if block
+
+
+// What concepts were solidified in the process of working through this challenge?
+// We can't use variable names in dot notation, even if those variables contain the strings that point to the right values.
+
+
 
 
 
