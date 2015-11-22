@@ -1,4 +1,4 @@
-Put the picture here
+![Screenshot](Screenshot.png)
 
 
 ##What are databases for?
