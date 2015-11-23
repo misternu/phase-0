@@ -32,7 +32,7 @@ DEFINE a function super fizzbuzz that takes an array
 # Refactored Solution
 
 def super_fizzbuzz(array)
-  return array.map {|n| n % 3 == 0 ? (n % 5 == 0 ? "FizzBuzz" : "Fizz") : (n % 5 == 0 ? "Buzz" : n)}
+  array.map {|n| n % 3 == 0 ? (n % 5 == 0 ? "FizzBuzz" : "Fizz") : (n % 5 == 0 ? "Buzz" : n)}
 end
 
 
